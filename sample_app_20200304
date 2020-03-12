@@ -1,37 +1,0 @@
-Script started on Tue 03 Mar 2020 11:38:33 PM UTC
-[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages)  $ exit
-exit
-
-Script done on Tue 03 Mar 2020 11:38:54 PM UTC
-Script started on Tue 03 Mar 2020 11:39:37 PM UTC
-[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages) $ [K[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages) $  [KM[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages)  $ git add -a[KA
-[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages)  $ git commit -m "Add a Static Pages controller"
-[static-pages e15cef8] Add a Static Pages controller
- 9 files changed, 42 insertions(+)
- create mode 100644 app/assets/javascripts/static_pages.coffee
- create mode 100644 app/assets/stylesheets/static_pages.scss
- create mode 100644 app/controllers/static_pages_controller.rb
- create mode 100644 app/helpers/static_pages_helper.rb
- create mode 100644 app/views/static_pages/help.html.erb
- create mode 100644 app/views/static_pages/home.html.erb
- create mode 100644 sample_app_20200304
- create mode 100644 test/controllers/static_pages_controller_test.rb
-[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages)  $ git push -u origin static-pages
-Username for 'https://github.com/melumuccu/sample_app.git': melumuccu
-Password for 'https://melumuccu@github.com/melumuccu/sample_app.git': 
-Counting objects: 31, done.
-Compressing objects:   3% (1/30)   Compressing objects:   6% (2/30)   Compressing objects:  10% (3/30)   Compressing objects:  13% (4/30)   Compressing objects:  16% (5/30)   Compressing objects:  20% (6/30)   Compressing objects:  23% (7/30)   Compressing objects:  26% (8/30)   Compressing objects:  30% (9/30)   Compressing objects:  33% (10/30)   Compressing objects:  36% (11/30)   Compressing objects:  40% (12/30)   Compressing objects:  43% (13/30)   Compressing objects:  46% (14/30)   Compressing objects:  50% (15/30)   Compressing objects:  53% (16/30)   Compressing objects:  56% (17/30)   Compressing objects:  60% (18/30)   Compressing objects:  63% (19/30)   Compressing objects:  66% (20/30)   Compressing objects:  70% (21/30)   Compressing objects:  73% (22/30)   Compressing objects:  76% (23/30)   Compressing objects:  80% (24/30)   Compressing objects:  83% (25/30)   Compressing objects:  86% (26/30)   Compressing objects:  90% (27/30)   Compressing objects:  93% (28/30)   Compressing objects:  96% (29/30)   Compressing objects: 100% (30/30)   Compressing objects: 100% (30/30), done.
-Writing objects:   3% (1/31)   Writing objects:   6% (2/31)   Writing objects:   9% (3/31)   Writing objects:  12% (4/31)   Writing objects:  16% (5/31)   Writing objects:  19% (6/31)   Writing objects:  22% (7/31)   Writing objects:  25% (8/31)   Writing objects:  29% (9/31)   Writing objects:  32% (10/31)   Writing objects:  35% (11/31)   Writing objects:  38% (12/31)   Writing objects:  41% (13/31)   Writing objects:  45% (14/31)   Writing objects:  48% (15/31)   Writing objects:  51% (16/31)   Writing objects:  54% (17/31)   Writing objects:  58% (18/31)   Writing objects:  61% (19/31)   Writing objects:  64% (20/31)   Writing objects:  67% (21/31)   Writing objects:  70% (22/31)   Writing objects:  74% (23/31)   Writing objects:  77% (24/31)   Writing objects:  80% (25/31)   Writing objects:  83% (26/31)   Writing objects:  87% (27/31)   Writing objects:  90% (28/31)   Writing objects:  93% (29/31)   Writing objects:  96% (30/31)   Writing objects: 100% (31/31)   Writing objects: 100% (31/31), 4.72 KiB | 439.00 KiB/s, done.
-Total 31 (delta 9), reused 0 (delta 0)
-remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 6 local objects.[K
-remote: 
-remote: Create a pull request for 'static-pages' on GitHub by visiting:[K
-remote:      https://github.com/melumuccu/sample_app/pull/new/static-pages[K
-remote: 
-To https://github.com/melumuccu/sample_app.git
- * [new branch]      static-pages -> static-pages
-Branch static-pages set up to track remote branch static-pages from origin.
-[01;32mKoki_Fujisawa[00m:[01;34m~/environment/sample_app[00m (static-pages)  $ exit
-exit
-
-Script done on Tue 03 Mar 2020 11:55:53 PM UTC
