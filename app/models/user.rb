@@ -1,5 +1,8 @@
 class User < ApplicationRecord
 
+  # 関連付け
+  has_many :microposts, dependent: :destroy
+
   # アクセサ
   attr_accessor :remember_token, :activation_token
 
@@ -57,6 +60,11 @@ class User < ApplicationRecord
   ## 有効化用のメールを送信する
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
+  end
+
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
 
